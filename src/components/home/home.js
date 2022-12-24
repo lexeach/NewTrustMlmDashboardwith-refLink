@@ -526,7 +526,7 @@ const Dashboard = () => {
 
         <div className="col-12 text-center">
           <button className={`ref-btn`} onClick={copyToClipBoard}>
-            Click here to copy your Refral link
+            Click here to copy your Referral link
           </button>
           {copySuccess === true ? (
             <span className="ref-btn-success">✓ copied.</span>
