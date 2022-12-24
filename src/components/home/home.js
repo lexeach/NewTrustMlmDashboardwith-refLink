@@ -288,7 +288,7 @@ const Dashboard = () => {
       let ICU_ = new web3.eth.Contract(ICU.ABI, ICU.address);
       let { id } = await ICU_.methods.users(userAc).call();
       if (parseInt(id) === 0) {
-        alert("Refrel Id not found");
+        alert("Referral Id not found");
         return;
       }
       let refLink = `${ClientBaseURL}?refid=${id}&abcref=123xyz`;
