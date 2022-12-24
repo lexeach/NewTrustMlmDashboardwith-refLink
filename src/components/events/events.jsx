@@ -319,7 +319,7 @@ const EventsList = () => {
                         <h4> {users_referredUsers}</h4>
                       </div>
                       <div className="d-flex">
-                        <h4 className="heading_"> My Sposor :- </h4>
+                        <h4 className="heading_"> My Sponsor :- </h4>
                         <h4> {users_referrerID}</h4>
                       </div>
                     </div>
