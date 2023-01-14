@@ -289,11 +289,11 @@ const EventsList = () => {
                   {users_autoPoolPayReceived ? (
                     <div className="user-detail-res">
                       <div className="d-flex">
-                        <h4 className="heading_"> Auto Pool Pay Recived :- </h4>
+                        <h4 className="heading_"> Auto Pool Pay Received :- </h4>
                         <h4> {users_autoPoolPayReceived}</h4>
                       </div>
                       <div className="d-flex">
-                        <h4 className="heading_"> Auto Pool Pay Reciver :- </h4>
+                        <h4 className="heading_"> Auto Pool Pay Receiver :- </h4>
                         <h4> {users_autopoolPayReciever}</h4>
                      
                       </div>
