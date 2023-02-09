@@ -307,7 +307,7 @@ const EventsList = () => {
                       </div>
                       
                       <div className="d-flex">
-                        <h4 className="heading_"> Total Level Income :- </h4>
+                        <h4 className="heading_"> Total Team :- </h4>
                         <h4> {users_levelIncomeReceived}</h4>
                       </div>
                       <div className="d-flex">
